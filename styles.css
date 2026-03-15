@@ -1,0 +1,380 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    background-image: url(backgroung.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:330px){  
+     .header {
+    text-align: center;
+    margin-top: 20vh;
+}
+.header h1 {
+    color: white;
+}
+.header img {
+    width: 130px;
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+}
+span {
+    color: yellow;
+}
+  /* main agro */
+  .main-agro img{
+    width: 55%;
+    height: 55%;
+    margin-left: 22vw;
+
+  }
+  /* bottom comment */
+   .bottom-comment {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 110px;
+   }
+
+
+            /* PAGE 2 */
+
+
+.head-image2 img{
+    margin-top: 15vh;
+    width: 50%;
+    height: 50%;
+    margin-left: 23vw;
+}
+.page2-text {
+    text-align: center;
+    margin: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.page2-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-top: 60px;
+    /* height: 35px; */
+}
+#first-button {
+    background: #4BAF47;
+    color: white;
+    border-radius: 25px;
+    border: solid black 1px;
+    height: 40px;
+    width: 110px;
+    cursor: pointer;
+}
+#second-button {
+    background: #FAFF00;
+     color: rgb(5, 5, 5);
+    border-radius: 25px;
+    border: solid black 1px;
+    height: 40px;
+    width: 110px;
+    cursor: pointer;
+}
+
+        /* PAGE 4 */
+
+.page4-image img{
+      margin-top: 8vh;
+    width: 40%;
+    height: 40%;
+    margin-left: 29vw;
+}
+
+.page4-text h1{
+    text-align: center;
+    letter-spacing: 5%;
+    font-weight: 900;
+    font-size: 35px;
+    margin-top: 15px;
+    color: #e6e92c;
+    font-style: italic;
+}
+.page4-text {
+    color: white;
+    text-align: center;
+}
+.page4-text p {
+    margin-top: 2vh;
+}
+
+.sin {
+    color: white;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+.page4-images {
+    display: flex;
+    justify-content: space-between;
+    margin: 13vw;
+    margin-top: 4vh;
+}
+.page4-images img{
+    height: 80px;
+    width: 80px;
+}
+.page4-button {
+    display: flex;
+    justify-content: space-between;
+    margin: 33px;
+    position: relative;
+    bottom: 33px;
+}
+#button1 {
+    height: 40px;
+    width: 100px;
+    background: #FFD29A;
+    border-radius: 30px;
+    border: #FFD29A solid 1px;
+}
+#button2 {
+    background: #FFD29A;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    border: #FFD29A solid 1px;
+}
+.page4-last {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+.page4-last p {
+    color: white;
+}
+.page4-last button {
+    background: #EEC044;
+    height: 30px;
+    width: 120px;
+    border-radius: 7px;
+    border: #EEC044 solid 1px;
+    margin-top: 5px;
+}
+
+         /* PAGE 5 */
+
+.page5-image img{
+     margin-top: 12vh;
+    width: 45%;
+    height: 45%;
+    margin-left: 27vw;
+}
+.page5-text {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+.page5-text p {
+    margin-bottom: 7px;
+}
+.page5-a {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+.page5-a a {
+    text-decoration: none;
+    color: #EEC044;
+}
+.page5-input {
+    text-align: center;
+}
+.page5-input input {
+    height: 35px;
+    width: 75vw;
+    border-radius: 25px;
+    border: white solid 1px;
+    margin-top: 12vh;
+    margin-left: 8vw;
+}
+.page5-input ::placeholder {
+    padding: 20px;
+}
+.page5-input img {
+    position: relative;
+    right: 40px;
+    top: 5px;
+    height: 20px;
+}
+
+.page5-input button {
+    background: #FAFF00;
+    height: 37px;
+    align-items: center;
+    width: 100px;
+    margin-top: 40px;
+    border-radius: 15px;
+    border: #FAFF00 solid 1px;
+}
+
+       
+               /* FARMER */
+
+.farmer-images {
+    display: flex;
+    margin-top: 10vh;
+    margin-left: 25px;
+}
+.farmer-images img {
+    height: 20%;
+    width: 20%;
+}
+.farmer-images h1 {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    font-size: 3rem;
+    color: #EEC044;
+}
+.farmer img{
+    margin-left: 33vw;
+    margin-top: 8vh;
+}
+#button3 {
+    background-color: #FFD29A;
+    margin-top: 5vh;
+    position: relative;
+    left: 112px;
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    border: black solid 3px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+#button4 {
+     background-color: #FAFF00;
+    margin-top: 15vh;
+    position: relative;
+    left: 97px;
+    height: 30px;
+    width: 120px;
+    border-radius: 25px;
+    font-weight: 400;
+    border: #FAFF00 solid 1px;
+}
+
+
+        /* REGISTER */
+
+.register-image img{
+    margin-top: 10vh;
+    width: 45%;
+    height: 45%;
+    margin-left: 27vw;
+}
+.register-input {
+    text-align: center;
+    margin-top: 15vh;
+}
+#input1 {
+    height: 40px;
+    width: 75vw;
+    margin-bottom: 30px;
+    border: white;
+    border-radius: 20px;
+    margin-left: 30px;
+
+}
+#input2 {
+     height: 38px;
+    width: 75vw;
+    margin-bottom: 30px;
+    border: white;
+    border-radius: 20px;
+}
+#input3 {
+     height: 38px;
+    width: 75vw;
+    margin-bottom: 30px;
+    border: white;
+    border-radius: 20px;
+}
+ #button6 {
+    position: relative;
+    left: 34vw;
+    background: #FAFF00;
+    height: 35px;
+    width: 100px;
+    border: #FAFF00;
+    border-radius: 25px;
+    color: black;
+ }
+input::placeholder {
+    position: relative;
+    left: 30px;
+}
+.register-input img {
+    position: relative;
+    right: 45px;
+    top: 5px;
+    height: 20px;
+}
+
+        /* SAMAN */
+
+
+#saman {
+    margin: 0;
+    background-image: url(samanbackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow-y: hidden; */
+    /* height: 273px; */
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
